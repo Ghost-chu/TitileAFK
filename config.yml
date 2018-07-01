@@ -1,0 +1,16 @@
+title: §a我们等你很久了 :)
+#标题文本 颜色符号为§
+subtitle: §7原地跳跃或输入/afk来退出离开模式
+#副标题文本 颜色符号为§
+fade-in: 10
+#淡入用时 0为立刻显示无缓动效果 时间单位为ticks 1秒=20ticks
+stay: 80
+#显示用时 0为立刻消失不停留 怎么会有人设置为0呢 时间单位为ticks 1秒=20ticks
+fade-out: 10
+#淡出用时 0为立刻消失无缓动效果 时间单位为ticks 1秒=20ticks
+interval: 110
+#多久检测并发送一次Title
+#一般来说我们推荐将间隔数值调整为 fade-in+stay+subtitle+10ticks 时间单位为ticks 1秒=20ticks
+#间隔太短会导致来不及显示
+#建议不低于fade-in加stay加fade-out的总和
+#小于10ticks由于Essentials的性能原因可能会导致服务器卡顿 这不是插件的锅
